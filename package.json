@@ -1,0 +1,20 @@
+{
+  "name": "scroll-viewer",
+  "version": "1.0.0",
+  "description": "Scroll through web pages and images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=./icon.ico --prune=true --out=\\\\nm-admin\\admin\\appl\\Deployment\\ScrollViewerJS --version-string.ProductName=\"ScrollViewerJS\""
+  },
+  "author": "Tommy Crafton",
+  "license": "ISC",
+  "dependencies": {
+    "electron-log": "^4.2.4",
+    "moment": "^2.27.0",
+    "n-readlines": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^10.1.0"
+  }
+}
